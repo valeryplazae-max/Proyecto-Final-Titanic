@@ -8,7 +8,7 @@ Original file is located at
 
 ##**Punto 12. Gráficas**
 """
-
+##Graficos
 # Importamos la librería matplotlib para crear y mostrar las gráficas
 import matplotlib.pyplot as plt
 
@@ -35,7 +35,7 @@ plt.ylabel("Proporción de sobrevivientes")
 plt.xlabel("Sexo")
 plt.ylim(0,1)
 plt.tight_layout()
-plt.show() #imprimimos el grafico con .show 
+plt.show() 
 
 # Creamos un gráfico de barras que muestra la proporción de supervivencia según el grupo etario y el sexo,
 # comparando mujeres y hombres dentro de cada categoría de edad
