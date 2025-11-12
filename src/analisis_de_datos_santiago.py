@@ -65,7 +65,7 @@ print(test.describe(include='all'))
 print("\nInformación general de TEST:")
 print(test.info()) 
 
-#Estadisticas del los datasets 
+# info datasets
 
 # Columnas comunes y diferentes
 print("\nColumnas comunes:", list(set(train.columns) & set(test.columns)))
