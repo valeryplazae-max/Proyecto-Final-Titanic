@@ -15,7 +15,7 @@ import pandas as pd
 # Configuramos el acceso a kaggle, para poder descargar los datos
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
-!chmod 600 ~/.kaggle/kaggle.json
+!chmod 600 ~/.kaggle/kaggle.json #credenciales
 
 # Descargamos el dataset
 !kaggle competitions download -c titanic
