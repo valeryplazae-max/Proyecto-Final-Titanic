@@ -21,4 +21,4 @@ import pandas as pd
 !kaggle competitions download -c titanic
 
 # Descomprimimos el archivo ZIP descargado, extrayendo los archivos CSV
-!unzip titanic.zip
+!unzip titanic.zip #.....
