@@ -8,7 +8,7 @@ Original file is located at
 
 ##**Punto 12. Gráficas**
 """
-##Graficos
+##Graficos importantes ididididi
 # Importamos la librería matplotlib para crear y mostrar las gráficas
 import matplotlib.pyplot as plt
 
