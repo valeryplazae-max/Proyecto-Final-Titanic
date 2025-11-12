@@ -75,7 +75,7 @@ La comparación de DataFrames muestra que:
 print("Estadísticas del DataFrame TRAIN")
 print(train.describe(include='all'))
 print("\nInformación general de TRAIN:")
-print(train.info()) # obtenemos info de train...
+print(train.info()) # obtenemos info de train... 
 
 print("\nEstadísticas del DataFrame TEST")
 print(test.describe(include='all'))
