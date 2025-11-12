@@ -35,7 +35,7 @@ plt.ylabel("Proporción de sobrevivientes")
 plt.xlabel("Sexo")
 plt.ylim(0,1)
 plt.tight_layout()
-plt.show()
+plt.show() #Usamos show para imprimir el grafico 
 
 # Creamos un gráfico de barras que muestra la proporción de supervivencia según el grupo etario y el sexo,
 # comparando mujeres y hombres dentro de cada categoría de edad
@@ -84,7 +84,7 @@ plt.show()
 Como grupo concluimos que las mujeres, especialmente las de clases altas y con cabina, fueron quienes tuvieron más probabilidades de sobrevivir. En cambio, los hombres adultos de clases bajas sin cabina fueron los más vulnerables. Esto refleja que factores como el sexo, la clase social y el acceso a cabina influyeron fuertemente en las posibilidades de supervivencia en el Titanic
 """
 
-# Filtramos solo las filas donde Survived sea 0 o 1 (del train)
+# Filtramos solo las filas donde Survived sea 0 o 1 (del datasdet train)
 mask = data_total["Survived"].isin([0,1])
 df = data_total.loc[mask]
 
