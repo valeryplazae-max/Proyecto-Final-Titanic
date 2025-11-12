@@ -87,7 +87,7 @@ print("\nColumnas comunes:", list(set(train.columns) & set(test.columns)))
 print("Columnas solo en train:", list(set(train.columns) - set(test.columns)))
 print("Columnas solo en test:", list(set(test.columns) - set(train.columns)))
 
-# Valores nulos
+# Valores nulos.
 print("\nValores nulos en train:")
 print(train.isnull().sum())
 print("\nValores nulos en test:")
