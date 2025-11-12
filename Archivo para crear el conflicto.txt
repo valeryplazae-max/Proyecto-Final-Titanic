@@ -1,4 +1,4 @@
-Integrantxdcsd:
+Integrantes proyecto:
 Santiago (Análisis de datos)
 Valery (Análisis de datos combinados)
 Sofia (Gráficos)
