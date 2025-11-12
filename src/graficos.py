@@ -8,7 +8,7 @@ Original file is located at
 
 ##**Punto 12. Gráficas**
 """
-##Graficos importantes ididididi
+##Graficos importantes 
 # Importamos la librería matplotlib para crear y mostrar las gráficas
 import matplotlib.pyplot as plt
 
@@ -24,7 +24,7 @@ plt.xlabel("Edad")
 plt.ylabel("Número de pasajeros")
 plt.legend()
 plt.tight_layout()
-plt.show() #imprimimos con .show
+plt.show() 
 
 # Creamos un gráfico de barras para comparar la proporción de supervivencia entre mujeres y hombres
 mask = data_total["Survived"].isin([0,1])
@@ -91,5 +91,5 @@ df = data_total.loc[mask]
 # Calculamos la tasa de supervivencia por sexo, clase, cabina y grupo etario
 tabla = (df.groupby(["Sex", "Pclass", "Tiene_cabina", "Grupo_etario"])["Survived"].mean().reset_index().sort_values("Survived", ascending=False))
 
-# Mostramos los 20 primeros grupos con mayor supervivencia
+# Mostramos los 20 grupos con mayor supervivencia
 display(tabla.head(20))
