@@ -24,7 +24,7 @@ plt.xlabel("Edad")
 plt.ylabel("Número de pasajeros")
 plt.legend()
 plt.tight_layout()
-plt.show()
+plt.show() #imprimimos con .show
 
 # Creamos un gráfico de barras para comparar la proporción de supervivencia entre mujeres y hombres
 mask = data_total["Survived"].isin([0,1])
