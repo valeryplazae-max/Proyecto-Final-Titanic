@@ -67,6 +67,8 @@ print(test.info())
 
 # info datasets
 
+#Imprimos info de lops datasets
+
 # Columnas comunes y diferentes
 print("\nColumnas comunes:", list(set(train.columns) & set(test.columns)))
 print("Columnas solo en train:", list(set(train.columns) - set(test.columns)))
