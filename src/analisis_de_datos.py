@@ -80,7 +80,7 @@ print(train.info()) # obtenemos info de train...
 print("\nEstadísticas del DataFrame TEST")
 print(test.describe(include='all'))
 print("\nInformación general de TEST:")
-print(test.info()) #obtenemos info de test
+print(test.info()) #obtenemos info de test...
 
 # Columnas comunes y diferentes
 print("\nColumnas comunes:", list(set(train.columns) & set(test.columns)))
