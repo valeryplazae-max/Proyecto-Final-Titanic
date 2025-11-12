@@ -63,7 +63,9 @@ print(train.info())
 print("\nEstadísticas del DataFrame TEST")
 print(test.describe(include='all'))
 print("\nInformación general de TEST:")
-print(test.info())
+print(test.info()) 
+
+#Estadisticas del los datasets 
 
 # Columnas comunes y diferentes
 print("\nColumnas comunes:", list(set(train.columns) & set(test.columns)))
