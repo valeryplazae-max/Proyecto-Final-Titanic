@@ -34,7 +34,7 @@ plt.title("Proporción de supervivencia por sexo")
 plt.ylabel("Proporción de sobrevivientes")
 plt.xlabel("Sexo")
 plt.ylim(0,1)
-plt.tight_layout()
+plt.tight_layout() 
 plt.show() #imprimimos con .show
 
 # Creamos un gráfico de barras que muestra la proporción de supervivencia según el grupo etario y el sexo,
