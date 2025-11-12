@@ -65,7 +65,10 @@ print(test.describe(include='all'))
 print("\nInformación general de TEST:")
 print(test.info()) 
 
+
+# info datasets ...
 # Estadisticas
+
 
 #Imprimos info de lops datasets
 
