@@ -9,7 +9,7 @@ Original file is located at
 ##**Punto 12. Gráficas**
 """
 ## Graficos mas importantes
-# Importamos la librería matplotlib para crear y mostrar las gráficas
+# Importamos la librería matplotlib para crear y mostrar las gráficas.
 import matplotlib.pyplot as plt
 
 # Creamos un histograma para comparar la distribución de edades entre pasajeros que sobrevivieron y los que no
