@@ -91,5 +91,5 @@ df = data_total.loc[mask]
 # Calculamos la tasa de supervivencia por sexo, clase, cabina y grupo etario
 tabla = (df.groupby(["Sex", "Pclass", "Tiene_cabina", "Grupo_etario"])["Survived"].mean().reset_index().sort_values("Survived", ascending=False))
 
-# Mostramos los 20 grupos con mayor supervivencia
+# Mostramos los 20 primeros grupos con mayor supervivencia
 display(tabla.head(20))
